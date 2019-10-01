@@ -12,7 +12,7 @@ author1:
 
   # This photo will be used in the about section
   picture:
-    path:            https://raw.githubusercontent.com/TZTsai/TZTsai.github.io/master/assets/img/IMG_20191001_184041.jpg
+    path:            
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
       1x:            https://placehold.it/128x128
