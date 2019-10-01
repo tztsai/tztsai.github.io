@@ -47,6 +47,8 @@ author:
   email:               jamestztsai@gmail.com
   # Used by `jekyll-seo-tag`:
   twitter:             James Cai
+  about:               Hi there! I'm James or CTZ.
+  picture:             /assets/img/NameCard.jpg
 
 # Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
@@ -68,7 +70,7 @@ paginate_path:         /page-:num/
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/au-sidebar.jpg
 accent_color:          '#4fb1ba'
 
 # The string encoding which fonts to fetch from Google Fonts.
