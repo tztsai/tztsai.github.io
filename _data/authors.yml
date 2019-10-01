@@ -8,8 +8,7 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    二十岁的我现在在上海交通大学读计算机工程专业。
-    Love Jiddu Krishnamurti.
+    If you have love, you are not lonely.
 
   # This photo will be used in the about section
   picture:

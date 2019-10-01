@@ -6,6 +6,6 @@ description: >
 menu: true
 order: 4
 ---
-
-My name is Cai Tianzhang. A junior CS student studying in SJTU.
-I Love Krishnamurti.
+  二十岁的我现在在上海交通大学读计算机工程专业。
+  Love Jiddu Krishnamurti.
+  
