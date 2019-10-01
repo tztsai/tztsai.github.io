@@ -22,11 +22,11 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:           James Cai
+    # twitter:           James Cai
     github:            TZTsai
     # email:             jamestztsai@gmail.com
     # rss:             https://<url>/feed.xml
-    # facebook:        <username>
+    facebook:          James Cai
     # google:          <number>
     # vk:              <username>
     # youtube:         <string_string_string>
