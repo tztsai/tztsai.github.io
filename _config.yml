@@ -22,13 +22,12 @@ baseurl:               ''
 lang:                  cn
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 My Awesome Blog
+title:                 CTZ's Blog
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
   CTZ's blog. I will post notes and articles time by time.
-Powered by Github Pages, Jekyll and Hydejack.
 
 # A shorter description for the sidebar.
 tagline:               >
