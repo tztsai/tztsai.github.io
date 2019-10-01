@@ -2,7 +2,7 @@
 layout: about
 title: About
 description: >
-  **蔡天章 CaiTianzhang**
+  **蔡天章**
 author: James Cai
 menu: true
 order: 4
