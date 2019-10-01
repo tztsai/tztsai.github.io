@@ -2,7 +2,7 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              James Cai
+  name:              Cai
   email:             jamestztsai@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
@@ -24,7 +24,7 @@ author1:
   social:
     twitter:           James Cai
     github:            TZTsai
-    email:             jamestztsai@gmail.com
+    # email:             jamestztsai@gmail.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
