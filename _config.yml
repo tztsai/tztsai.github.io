@@ -22,19 +22,19 @@ baseurl:               ''
 lang:                  cn
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 CTZ's Blog
+title:                 蔡天章的博客
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  CTZ's blog. I will post notes and articles time by time.
+  :)
 
 # A shorter description for the sidebar.
 tagline:               >
-  CTZ's Blog
+  我的个人博客，后续会上传一些文章和笔记。
 
 # A list of keywords for your blog
-keywords:              [Blog, Articles]
+keywords:              []
 
 # Used by jekyll-seo-tag...
 logo:                  /assets/icons/icon.png
