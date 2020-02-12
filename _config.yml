@@ -148,7 +148,7 @@ hydejack:
 collections:
   featured_categories:
     permalink:         /category/:name/
-    output:            false
+    output:            true
 
   featured_tags:
     permalink:         /tag/:name/
