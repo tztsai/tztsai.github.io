@@ -8,8 +8,8 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Cai, studying computer engineering in SJTU-UM Joint Institute. 
-    Email: tztsai@sjtu.edu.cn
+    Cai Tianzhang, an ECE student in SJTU-UM Joint Institute.  
+    My email: tztsai@sjtu.edu.cn
 
   # This photo will be used in the about section
   picture:    
