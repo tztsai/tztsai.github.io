@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Study
-slug: study
+title: Essays
+slug: essay
 menu: true
 ---
 

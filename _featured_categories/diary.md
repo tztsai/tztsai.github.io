@@ -1,7 +1,6 @@
 ---
 layout: list
-title: Study
-slug: study
+title: Diary
+slug: diary
 menu: true
 ---
-
