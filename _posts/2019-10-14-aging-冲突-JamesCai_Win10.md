@@ -3,7 +3,7 @@ layout: post
 title: 衰老的终结？
 description: >
     关于我周末在 YouTube 上的 Google Talks 频道看到的关于抗衰老最新研究的一个演讲
-categories: [essay]
+categories: [article]
 author: Cai
 ---
 
