@@ -18,3 +18,5 @@
 ### 上传到Github
 
 首先commit项目变动，然后`git push`。
+
+[^1]: Requires Bundler. Install with `gem install bundler`.
