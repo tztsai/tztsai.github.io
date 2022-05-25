@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-author: James Cai
+author: Tianzhang Cai
 date: 18 Apr 2020
 menu: true
 order: 4
