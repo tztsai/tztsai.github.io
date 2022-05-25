@@ -1,6 +1,7 @@
 ---
 layout: list
-title: Diary
-slug: diary
+title: Research
+slug: research
 menu: true
 ---
+
