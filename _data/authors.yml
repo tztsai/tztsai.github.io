@@ -8,26 +8,27 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Tianzhang Cai, bachelor's in ECE in SJTU-UMJI and master's in Machine Learning in KTH Stockholm.
-    My email: jamestztsai@gmail.com
+    蔡天章，2017-2021 在 SJTU-UMJI 读电子与计算机工程，2020-2022 在斯德哥尔摩 KTH 读机器学习。
 
   # This photo will be used in the about section
   picture:    
     path:            /assets/img/selfie.jpg
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            /assets/img/selfie.jpg
+      1x:            /assets/img/selfie128.jpg
       2x:            /assets/img/selfie256.jpg
+      4x:            /assets/img/selfie512.jpg
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    # twitter:           James Cai
-    github:            TZTsai
     email:             jamestztsai@gmail.com
+    github:            TZTsai
+    linkedin:          tianzhang-cai-817350209
+    # twitter:           James Cai
     # rss:             https://<url>/feed.xml
-    facebook:          james.cai.94009
+    # facebook:          james.cai.94009
     # google:          <number>
     # vk:              <username>
     # youtube:         <string_string_string>
@@ -54,7 +55,6 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>

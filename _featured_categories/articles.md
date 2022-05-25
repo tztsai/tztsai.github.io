@@ -2,5 +2,6 @@
 layout: list
 title: Articles
 slug: article
-menu: true
+description: >
+  My articles about various subjects.
 ---
