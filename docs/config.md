@@ -502,7 +502,7 @@ By default, Hydejack includes its own favicon, as well as app icons in 8 differe
 | `icon-96x96.png`   |    `96x96` |
 | `icon-72x72.png`   |    `72x72` |
 
-To change the default icons you have to replce all of them. To make this manageable, I recommend using the following tools:
+To change the default icons you have to replace all of them. To make this manageable, I recommend using the following tools:
 
 First, use the [Maskable.app Editor](https://maskable.app/editor) to confine your logo/picture to the "minimum safe area". More on maskable app icons, see [this article on web.dev](https://web.dev/maskable-icon). 
 Make sure the base image is at least 512x512 pixels in size.
