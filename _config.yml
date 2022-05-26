@@ -58,10 +58,10 @@ menu:
   #   url:               /docs/
   - title:             Articles
     url:               /articles/
-  - title:             Maths
-    url:               /maths/
   - title:             Travel
     url:               /travel/
+  - title:             Projects
+    url:               /projects/
   - title:             About
     url:               /about/
 
