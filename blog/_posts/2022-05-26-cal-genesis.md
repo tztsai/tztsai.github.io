@@ -67,8 +67,8 @@ And C saw the combinations, that some of them are bad: and C divided good combin
 !> SyntaxError: invalid syntax
 1 - - 2
 => 3
-1 - + 2
-=> -1
+.1
+!> SyntaxError: invalid syntax
 1 + 2)
 !> SyntaxError: unmatched ')'
 [1[2]-[3]]
@@ -87,7 +87,7 @@ And C said, an *operation* is a combination of a single *operator* and one or mo
 ```
 1 + 2  # + is an infix operator setting the rule called "add", and 1, 2 are the operands to be "added"
 => 3
-1 - 2  # - is an infix operator setting the rule called "subtract", and the first operand 1 will be "subtracted" by the second operand 2
+1 - 2  # - is an infix operator setting the rule called "subtract", and its left operand 1 will be "subtracted" by its right operand 2
 - 2  # - can also be a prefix operator to give its negative value
 => -2
 [1, *[2, 3]]  # * can also be a prefix operator that "unpacks" items of a list into its surrounding list
@@ -98,10 +98,38 @@ sqrt 4  # sqrt is a prefix operator to give the square root of its operand
 => 6
 [1,2,3]  # the pair of [] is an operator to make its operands (separated by ",") a list
 => [1, 2, 3]  # and the list value is written in the same format
-[1, 2][1]  # if the first operand is a list, the following pair of [] is an operator to find its member with the index of the second operand
+[1, 2].1  # if the first operand is a list, '.' is an infix operator to index it with its right operand
 => 1
-2 in [1, 2]  # in is an infix operator and its operands are 2 and [1, 2]
+1~3  # ~ is an infix operator that gives a range from its left to its right
+=> 1~3
+2 in 1~3  # 'in' is an infix operator to tell whether its left is in its right
 => true
+list 1~3  # list is an operator that iterates over its operand and lists the items
+=> [1, 2, 3]
+[[] = [], [] is []]  # = tells whether two values are equal, while 'is' tells whether they are identical
+=> [true, false]
+```
+
+```
+# more about list and range
+[1, 2].0  # indexing begins from 1
+!> IndexError: list index out of range
+[[1, 2], [3, 4]].2.[2,1]  # index can be a list
+=> [4, 3]
+"abcd".2~3  # 2~3 is a range
+=> "bc"
+"abcd".-1^^-2~1
+# ^^ gives a generator beginning with its left operand with a step of its right operand
+# if its left operand is a generator, ~ gives a range stopping at its right operand
+=> "db"
+"abcd".-1-~2  # a-~b is a short hand of a^^-1~b
+=> "dcb"
+list "a"~"d"
+=> ["a", "b", "c", "d"]
+next 1~100
+=> 1
+1~100 take 4
+=> [1, 2, 3, 4]
 ```
 
 And C said, *precedence* is the order to apply the operations; to allow any operation to have the highest precedence, C made the *parentheses* also.
@@ -153,7 +181,7 @@ print $"a={a}, b={b}, a+b={a+b}"
 a=4.0, b=3.0
 ```
 
-And C said, Let parentheses enclose the scope of a definition: and C saw that it was good.
+And C said, Let parentheses enclose the context of a definition: and C saw that it was good.
 
 ```
 (a: 2) + (b: a)
@@ -204,11 +232,12 @@ z
 => 2 (z + 1)  # its value is a symbolic expression
 ```
 
-And C said, Let symbols be freed as you want: and it was so.
+And C called it “free” if a symbol is undefined; and C said, Let free symbols be created as you want: and it was so.
 
 ```
-a: 1; [(a?), a]  # ? frees and returns the symbol in the current scope
+a: 1; [$a, a]  # $ makes a free symbol, no matter whether the name has been defined
 => [a, 1]
+# ? frees and returns the symbol in the current context
 x: 1; y: 2; [x, y, (x+2y)?]  # ? after an expression frees all names in it
 => [1, 2, x + 2 y]
 b: 2; c: 3; (d: a+b+c; [a,b,c]?; a b c d)
@@ -216,16 +245,16 @@ b: 2; c: 3; (d: a+b+c; [a,b,c]?; a b c d)
 => 6 a b c
 ```
 
-And C said, Let scopes be values as well: and it was so. And the defined names in a scope he called *attributes*.
+And C said, Let contexts be values as well: and it was so. And the defined names in a context he called *attributes*.
 
 ```
-(a:1; b:2; this)  # "this" is another special name whose value is the current scope
-=> (a: 1, b: 2)  # a scope is simply written in this way
-x: (a: 1, b: 2); [x.a, x.b]  # access of attributes in a scope
+(a:1; b:2; this)  # "this" is another special name whose value is the current context
+=> (a: 1, b: 2)  # a context is simply written in this way
+x: (a: 1, b: 2); [x.a, x.b]  # access of attributes in a context
 => [1, 2]
 x.a: 3; x.c: 4; x  # define an attribute
 => (a: 3, b: 2, c: 4)
-(a * b + c)? x  # the space before x is the operator that substitutes free symbols in the expression before it with their values defined in the following scope
+(a * b + c)? x  # the space before x is the operator that substitutes free symbols in the expression before it with their values defined in the following context
 # => (a * b + c)? (a: 3, b: 2, c: 4)
 => 10
 f: [a-b, a*b]?;
