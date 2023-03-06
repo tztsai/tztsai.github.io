@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>a</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="mobile-traffic-classification-and-multi-cell-base-station-control-for-energy-efficient-5g-networks">Mobile Traffic Classification and Multi-Cell Base Station Control for Energy-Efficient 5G Networks</h1>
+<p><strong>Author:</strong> Cai, Tianzhang</p>
+<h2 id="abstract">Abstract</h2>
+<p>The global energy consumption of mobile networks is rapidly increasing due to the exponential<br>
+growth of mobile network traffic. The advent of next-generation cellular technologies such<br>
+as fifth-generation (5G) and beyond promises higher network throughput and lower latency<br>
+but also demands higher power consumption for its denser base station (BS) deployment and<br>
+more energy-intensive processors. It is one of the key design pillars of next-generation mobile<br>
+networks to improve network energy efficiency. In this thesis, we aim to address this problem<br>
+by applying machine learning to analyze mobile traffic and control the operation of 5G BSs<br>
+with the goal of reducing network energy consumption while dynamically meeting the network<br>
+traffic demand. To obtain some preliminary insights into the temporal and spatial patterns<br>
+of mobile network traffic, we first analyze a real-world network flow dataset collected by a<br>
+Swedish mobile operator. We find that mobile traffic exhibits a strong periodicity in time and<br>
+a distinct locality in space. In order to develop a simulation environment to train and evaluate<br>
+the artificial intelligence (AI)-based BS control algorithm, we apply a clustering algorithm to<br>
+categorize the network traffic with different latency requirements into five traffic scenarios, e.g.<br>
+urban, rural, and office. Other necessary network models are also implemented such as energy<br>
+consumption, massive MIMO (multiple-input multiple-output) channel, user association, etc.<br>
+in the simulation environment endeavoring to mimic the real-world 5G network.</p>
+<p>The main contribution of this thesis is the development of a multi-agent reinforcement learning<br>
+algorithm to jointly control the operations of 5G BSs such as multi-level sleeping, antenna<br>
+switching, and user association. The algorithm is designed to minimize the total energy<br>
+consumption of a multi-cell 5G network while preserving its overall quality of service (QoS).<br>
+The trained algorithm has shown its ability to adaptively save energy by switching on/off the<br>
+sleep modes and antennas of BSs according to the varying traffic intensity. Moreover, the<br>
+multi-agent BS control policy produced by the algorithm has also demonstrated collaborative<br>
+behaviours such as user offloading that reduces inter-cell interference which degrades the QoS.<br>
+The evaluation results show that in comparison to the always-on configuration, the proposed<br>
+algorithm can reduce the total energy consumption of a network by about 50%, double that of<br>
+today’s symbol-level sleeping strategy (25%), while with negligible degradation of QoS. The<br>
+algorithm is also shown to be robust to variations in the volume and the QoS requirement of the<br>
+network traffic after being evaluated in different traffic scenarios.</p>
+</div>
+</body>
+
+</html>
