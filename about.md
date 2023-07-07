@@ -14,3 +14,4 @@ redirect_from:
 <!--author-->
 
 我爱好编程、吉他、网球、跑步、阅读。
+[这是我的个人简历](resources/CaiTianzhang_CV.pdf)
