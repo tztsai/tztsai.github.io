@@ -8,7 +8,7 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    蔡天章，2017-2021 在 SJTU-UMJI 读电子与计算机工程，2020-2022 在斯德哥尔摩 KTH 读机器学习。
+    蔡天章，2017-2021 在 SJTU-UMJI 读电子与计算机工程，2020-2022 在斯德哥尔摩 KTH 读机器学习。[我的个人简历 / My Resume](../resources/CaiTianzhang_CV.pdf)
 
   # This photo will be used in the about section
   picture:    
