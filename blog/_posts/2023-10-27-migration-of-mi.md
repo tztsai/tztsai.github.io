@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Evolution of Mechanical Intelligence: From Brain to Computer
+title: The Evolution of Mechanical Intelligence - From Brain to Computer
 categories: [article]
 author: Cai
 ---
