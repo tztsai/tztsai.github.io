@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 关于A是否有自我意识的测试
+title: 关于AI是否有自我意识的测试
 categories: [article]
 author: Cai
 ---
