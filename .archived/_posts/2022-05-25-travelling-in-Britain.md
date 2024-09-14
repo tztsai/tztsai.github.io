@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 在英国的旅行
-categories: [travel]
+categories: [article]
 author: Cai
 ---
 
