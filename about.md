@@ -12,5 +12,3 @@ redirect_from:
 # About
 
 <!--author-->
-
-独立创客。生活艺术家。
