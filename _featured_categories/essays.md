@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Articles
-slug: article
+title: Essays
+slug: essay
 description: >
   My thoughts and ideas.
 ---

@@ -56,10 +56,10 @@ menu:
   #   url:               /example/
   # - title:             Documentation
   #   url:               /docs/
-  - title:             Articles
-    url:               /article/
+  - title:             Essays
+    url:               /essay/
   - title:             Projects
-    url:               /project/
+    url:               /projects/
   - title:             About
     url:               /about/
 

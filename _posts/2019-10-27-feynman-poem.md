@@ -3,7 +3,7 @@ layout: post
 title: 费曼的一首诗
 description: >
     摘自理查德·费曼的文章：The Value of Science
-categories: [article]
+categories: [essay]
 author: Cai
 ---
 There are the rushing waves, mountains of molecules, each stupidly minding its own business, trillions apart, yet forming white surf in unison.  

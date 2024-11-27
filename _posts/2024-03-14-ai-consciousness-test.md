@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 关于AI是否有自我意识的测试
-categories: [article]
+categories: [essay]
 author: Cai
 ---
 
