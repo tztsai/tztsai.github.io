@@ -22,7 +22,7 @@ lang:                  cn
 # The title of your blog. Used in the sidebar and the browser tab.
 title:                 >
   蔡天章的博客
-  Tianzhang's Blog
+  Tian's Blog
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -59,7 +59,7 @@ menu:
   # - title:             Documentation
   #   url:               /docs/
   - title:             Essays
-    url:               /essay/
+    url:               /essays/
   - title:             Projects
     url:               /projects/
   - title:             About

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: “学习”二字如何理解？
-categories: [essay]
+categories: [essays]
 author: Cai
 ---
 
