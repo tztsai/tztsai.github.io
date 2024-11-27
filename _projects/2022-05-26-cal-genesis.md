@@ -2,7 +2,10 @@
 layout: project
 title: The Genesis of Cal Language
 date: 26 May 2022
-description: The Cal language is a functional programming language I created for fun.
+caption: The Cal language is a functional programming language I created for fun.
+links:
+  - title:   Source
+    url:     https://github.com/tztsai/Calang
 author: Cai
 ---
 
