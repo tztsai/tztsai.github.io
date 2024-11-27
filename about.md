@@ -12,5 +12,3 @@ redirect_from:
 # About
 
 <!--author-->
-
-我爱好编程、吉他、网球、跑步、阅读。
