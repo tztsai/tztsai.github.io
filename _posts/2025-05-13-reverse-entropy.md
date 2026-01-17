@@ -4,15 +4,12 @@ title: Reverse Entropy - My Work Principle
 categories: [essays]
 author: Cai
 ---
-
 If I had to summarize my guiding approach to work and life into one phrase, it would be: **Reverse Entropy**.
 
 Entropy is decay, disorder, dissipation. By the second law of thermodynamics, entropy increases in closed systems. But living organisms, including humans, are half-open systems, constantly exchanging matter, energy, and information with the external world. By opening up space and paying attention, we can reverse entropy in ourselves. We could say that Life is Anti-Entropy. This endeavor unfolds across three primary domains of our existence:
 
 - Bio-entropy: illness & aging → health & youth
-
 - Info-entropy: distraction & noise → clarity & significance
-
 - Psycho-entropy: depression & anxiety → love & peace
 
 ## 1. Reversing Bio-Entropy: From Decay to Vitality
